@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.nav__logo{
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    z-index: 3;
+    cursor: pointer;
+
+
+}
+.nav__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    margin-left: 40px;
+}
+.nav__item:last-child{
+    border-radius: 4px;
+    background:  #FFF;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.nav__item:last-child a{
+    text-decoration: none;
+    color: #606B74;
+}
+.nav__link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.hero{
+    padding-top: 181px;
+    padding-bottom: 190px;
+    background-image: url(../img/herobgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.hero__info{
+    width: 400px;
+    z-index: 3;
+
+}
+.hero__text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero__title{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 12px;
+    
+}
+.hero__link{
+    text-decoration: none;
+    color: #fff;
+}
+.hero__link i{
+    margin-right: 5px;
+    
+}
+.hero__out__list{
+    position: absolute;
+    right: -100px;
+    top: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    transform: rotate(90deg);
+
+}
+.hero__out__link{
+    text-decoration: none;
+    color: #FFF;
+}
+.material{
+    padding-top: 62px;
+    padding-bottom: 57px;
+    position: relative;
+}
+.material__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.material__info{
+    width: 400px;
+}
+.material__title{
+        color:  #222F33;
+        font-size: 30px;
+        font-weight: 900;
+}
+.material__text{
+        color:  #646D70;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px; 
+        line-height: 26px;
+        margin-top: 13px;
+}
+.material__btn{
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.material__img{
+    margin-top: -100px;
+    background-color: #222F33;
+    z-index: 3;
+}
+.material__info::after{
+    content: "";
+    width: 350px;
+    height: 100px;
+    background-color: #222F33;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+}
+.inovation{
+    padding-top: 72px;
+    padding-bottom: 81px;
+    background-color: #222F33;
+
+}
+.inovation__title{
+    color:  #FFF;
+    font-size: 30px;
+    font-weight: 900;
+}
+.inovation__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inovation__text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.inovation__next{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+.table{
+    padding-top: 85px;
+    padding-bottom: 56px;
+
+}
+.table__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.table__list{
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 65px;
+}
+.table__item{
+    width: 155px;
+}
+.table__item__title{
+    color: #222F33;
+    font-size: 18px;
+    font-weight: 900;
+}
+.table__item__text{
+    color: #646D70;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px; 
+    opacity: 0.7;
+}
+.footer{
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-color: #222F33;;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__main{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.footer__img{
+    align-items: center;
+    cursor: pointer;
+}
+.second{
+    margin-bottom: 5px;
+
+}
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+}
+.ppp{
+    margin-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
